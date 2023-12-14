@@ -12,6 +12,7 @@ const App = () => {
     {
       path: "/",
       element: <Body />,
+      errorElement: <Body />,
       children: [
         {
           path: "/",
