@@ -17,7 +17,7 @@ const App = () => {
         {
           path: "/",
           element: <MainContainer />,
-          errorElement: <Body />,
+          errorElement: <MainContainer />,
         },
         {
           path: "watch",
